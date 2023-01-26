@@ -1,4 +1,6 @@
 html {
+    display: flex;
+    justify-content: center;
     font-family: Roboto, sans-serif;
 }
 
@@ -7,7 +9,8 @@ li {
 }
 
 body {
-    background-color: #1f2937;
+    display: flex;
+    background-color: #1F2937;
 }
 
 ul {
@@ -21,7 +24,7 @@ a {
 .header {
     display: flex;
     align-items: center;
-    
+    gap: 400px;
 }
 
 .header a {
@@ -30,9 +33,8 @@ a {
 
 .header-links {
     display: flex;
-    margin-left: auto;
     font-size: 18px;
-    
+    gap: 28px;
 }
 
 .header-links a {
