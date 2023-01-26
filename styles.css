@@ -48,4 +48,5 @@ a {
 
 .content {
     display: flex;
+    flex: auto;
 }
