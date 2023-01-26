@@ -25,7 +25,7 @@ a {
 .header {
     display: flex;
     align-items: center;
-    gap: 400px;
+    justify-content: space-between;
 }
 
 .header a {
