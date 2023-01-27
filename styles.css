@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    flex: 0 1 1000px;
 }
 
 ul {
@@ -48,5 +49,9 @@ a {
 
 .content {
     display: flex;
-    flex: auto;
+}
+
+.content-main p {
+    font-size: 48px;
+    width: 500px;
 }
