@@ -151,7 +151,6 @@ a {
     width: 100%;
     justify-content: center;
     align-items: center;
-    
 }
 
 .quote {
@@ -166,5 +165,49 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
+}
+
+.background-call-to-action {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.call-to-action-container {
+    display: flex;
+    align-items: center;
+    padding: 70px 100px;
+    background-color: #3882F6;
+    gap: 200px;
+    color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.call-to-action-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    color: #E5E7EB;
+    height: 40px;
+    width: 120px;
+}
+
+.call-to-action .heading {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.call-to-action .message {
+    font-size: 18px;
     margin: 0;
 }
