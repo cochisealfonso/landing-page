@@ -1,2 +1,3 @@
 # landing-page
-For The Odin Project
+
+This landing page is a project submission for The Odin Project. 
